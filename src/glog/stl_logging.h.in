@@ -135,8 +135,8 @@ OUTPUT_FOUR_ARG_CONTAINER(std::unordered_set)
 OUTPUT_FOUR_ARG_CONTAINER(std::unordered_multiset)
 #endif
 #ifdef GLOG_STL_LOGGING_FOR_TR1_UNORDERED
-OUTPUT_FOUR_ARG_CONTAINER(std::tr1::unordered_set)
-OUTPUT_FOUR_ARG_CONTAINER(std::tr1::unordered_multiset)
+//OUTPUT_FOUR_ARG_CONTAINER(std::tr1::unordered_set)
+//OUTPUT_FOUR_ARG_CONTAINER(std::tr1::unordered_multiset)
 #endif
 #ifdef GLOG_STL_LOGGING_FOR_EXT_HASH
 OUTPUT_FOUR_ARG_CONTAINER(__gnu_cxx::hash_set)
@@ -158,8 +158,8 @@ OUTPUT_FIVE_ARG_CONTAINER(std::unordered_map)
 OUTPUT_FIVE_ARG_CONTAINER(std::unordered_multimap)
 #endif
 #ifdef GLOG_STL_LOGGING_FOR_TR1_UNORDERED
-OUTPUT_FIVE_ARG_CONTAINER(std::tr1::unordered_map)
-OUTPUT_FIVE_ARG_CONTAINER(std::tr1::unordered_multimap)
+//OUTPUT_FIVE_ARG_CONTAINER(std::tr1::unordered_map)
+//OUTPUT_FIVE_ARG_CONTAINER(std::tr1::unordered_multimap)
 #endif
 #ifdef GLOG_STL_LOGGING_FOR_EXT_HASH
 OUTPUT_FIVE_ARG_CONTAINER(__gnu_cxx::hash_map)
